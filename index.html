@@ -7,8 +7,6 @@
         <title>Currency Converter App</title>
         <link rel="stylesheet" type="text/css" href="./style.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="js/country-list.js"></script>
-        <script src="js/script.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -23,13 +21,7 @@
                         <p>From</p>
                         <div class="select-box">
                             <img src="https://countryflagsapi.com/png/us" alt="USD flag" />
-                            <select>
-                                <option value="USD">USD</option>
-                                <option value="BGN">BGN</option>
-                                <option value="INR">INR</option>
-                                <option value="PKR">PKR</option>
-                                <option value="MAD">MAD</option>
-                            </select>
+                            <select></select>
                         </div>
                     </div>
                     <div class="icon">
@@ -39,19 +31,15 @@
                         <p>To</p>
                         <div class="select-box">
                             <img src="https://countryflagsapi.com/png/bg" alt="Bulgarian flag" />
-                            <select>
-                                <option value="USD">USD</option>
-                                <option value="BGN">BGN</option>
-                                <option value="INR">INR</option>
-                                <option value="PKR">PKR</option>
-                                <option value="MAD">MAD</option>
-                            </select>
+                            <select></select>
                         </div>
                     </div>
                 </div>
-                <div class="exchange-rate">1 USD = 1.96 BGN</div>
+                <div class="exchange-rate">Getting exchange rate...</div>
                 <button>Get Exchange Rate</button>
             </form>
         </div>
+        <script src="js/country-list.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>
